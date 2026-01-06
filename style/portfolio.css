@@ -98,3 +98,33 @@ header{
     vertical-align: middle;
 }
 /* banner part end here */
+
+/* about part start here */
+.about{
+    max-width: 1140px;
+    margin: 130px auto;
+    padding: 130px 155px;
+    background-color:#FFF8F3 ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.about_content{
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about_content p{
+    margin: 30px auto; 
+    line-height: 30px;
+    text-align: justify;
+    color: #757575;
+    font-size: 18px;
+}
+.about_details{
+    display: flex;
+    justify-content: space-between;
+    
+}
