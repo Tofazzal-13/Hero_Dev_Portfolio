@@ -29,6 +29,24 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+.section_heading{
+    max-width: 827px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section_heading h2{
+    color: #181818;
+    line-height: 35px;
+    font-weight: bold;
+    
+}
+.section_heading p{
+    margin: 30px auto; 
+    line-height: 30px;
+    color: #757575;
+    font-size: 18px;
+}
+
 
 /* main style */
 header{
@@ -102,29 +120,70 @@ header{
 /* about part start here */
 .about{
     max-width: 1140px;
-    margin: 130px auto;
-    padding: 130px 155px;
-    background-color:#FFF8F3 ;
+    padding-top: 130px;
+    margin: 0 auto;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.about_content{
-    max-width: 830px;
-    margin: 0 auto;
+.about_container{
+    max-width: 827px;
+    padding: 130px 155px;
+    background-color:#FFF8F3 ;
     text-align: center;
 }
-.about_content p{
-    margin: 30px auto; 
-    line-height: 30px;
-    text-align: justify;
-    color: #757575;
-    font-size: 18px;
-}
-.about_details{
+
+.about_info{
     display: flex;
     justify-content: space-between;
     
+}
+.about_info-card p {
+    color: #181818;
+    font-weight: 20px;
+}
+.about_info-card h4{
+    color:#474747 ;
+    font-weight: 20px;
+    line-height: 30px;
+}
+/* skill part start here */
+#skills{
+    padding-top: 130px;
+}
+
+#skills .skill_container{
+    width: 84%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#skills .skill_container .skills-box{
+    display: flex;
+    gap: 24px;
+}
+.skills-box .skill_card{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 #0000005e;
+    max-width: 267px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.skill_card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill_card h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #181818;
+}
+.skill_card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
 }
