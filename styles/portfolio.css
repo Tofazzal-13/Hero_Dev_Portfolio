@@ -57,7 +57,6 @@
 .container {
     width: 71%;
     max-width: 1140px;
-    /* border: 1px solid red; */
     margin: 0px auto;
 }
 
@@ -279,7 +278,6 @@ footer .footer-container {
     margin-bottom: 24px;
     border: none;
     border-radius: 5px;
-
     color: #757575
 }
 
@@ -296,26 +294,41 @@ footer .footer-container {
     #about .about-container .about-info{
         gap: 20px;
     }
+    /* about section responsive end here */
     /* skill section responsive start here */
     #about, #skills, #resume{
        padding-top: 80px;
     }
     .container {
-    width: 95%;
+        width: 95%;
     }
     .section-heading h2 {
-    font-size: 30px;
+        font-size: 30px;
     }
     .section-heading p {
-    text-align: justify;
+        text-align: justify;
     }
     #skills .skills-container .skill-box,
-    #about .about-container .about-info {
-    flex-direction: column;
+    #about .about-container .about-info,
+    footer .footer-container,
+    #resume .resume-container {
+        flex-direction: column;
     }
     .skill-box .skill-card {
-    max-width: 100%;
+        max-width: 100%;
     }
     /* skill section responsive end here */
+    /* resume section responsive start here */
+    #resume .resume-container{
+        margin-top: 60px;
+    }
+    .resume-card{
+        margin-right: 10px;
+    }
+    /* footer section responsive start here */
+    .footer-container form input[type="text"], 
+    .footer-container form textarea {
+        width: 100%;  
+    }
 
 }
