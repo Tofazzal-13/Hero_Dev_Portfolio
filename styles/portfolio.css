@@ -30,7 +30,11 @@
     color: white;
     cursor: pointer;
 }
-
+.btn_group{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 .section-heading {
     max-width: 827px;
     text-align: center;
@@ -287,6 +291,39 @@ footer .footer-container {
 }
 
 @media screen and (max-width:576px){
+    /* header part responsive */
+    header {
+        background-color: #FFF8F3;
+        background:url("../images/header_bg.png"), #FFF8F3;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        
+    }
+    /* nav section responsive start here */
+    nav{
+        gap: 40px;
+        
+    }
+    nav .menu{
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* banner part start here */
+    #banner{
+        margin: 40px 20px 0 20px;
+        gap: 20px;
+        text-align: center;
+    }
+    #banner .banner-image img{
+        width: 100%;
+    }
+    #banner .banner-content h1{
+        font-size: 44px;
+    }
+    .btn_group{
+        justify-content: center;
+    }
     /* about section responsive start here */
     #about .about-container{
         padding:20px;
@@ -311,7 +348,9 @@ footer .footer-container {
     #skills .skills-container .skill-box,
     #about .about-container .about-info,
     footer .footer-container,
-    #resume .resume-container {
+    #resume .resume-container,
+    nav,
+    #banner {
         flex-direction: column;
     }
     .skill-box .skill-card {
